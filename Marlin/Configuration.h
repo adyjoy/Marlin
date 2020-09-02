@@ -2,7 +2,7 @@
  * 
  * ACJ SKR Mini E3 v2.0 - Marlin 2.0.5-bugfix 
  * v0.a - initial build
- * v0.b - bltouch & filament runout sensor
+ * v1.0 - bltouch 
  * 
  * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
@@ -139,7 +139,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender-5-SKR-Mini-0.b-dev2"
+#define CUSTOM_MACHINE_NAME "Ender-5-SKR-Mini-1.0"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
