@@ -1,3 +1,6 @@
+// Name displayed in the LCD "Ready" message and Info menu
+#define CUSTOM_MACHINE_NAME "Ender-5-SKR-Mini-1.0c"
+
 /**
  * 
  * ACJ SKR Mini E3 v2.0 - Marlin 2.0.5-bugfix 
@@ -137,9 +140,6 @@
 #ifndef MOTHERBOARD
   #define MOTHERBOARD BOARD_BTT_SKR_MINI_E3_V2_0    
 #endif
-
-// Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender-5-SKR-Mini-1.0b"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
@@ -1001,7 +1001,7 @@
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
 // set to 0 for edge of bed (no clips)
 // #define PROBING_MARGIN 10
-#define PROBING_MARGIN 0
+#define PROBING_MARGIN 10
 
 // X and Y axis travel speed (mm/m) between probes
 #define XY_PROBE_SPEED 10000
@@ -1133,14 +1133,15 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 225
-#define Y_BED_SIZE 225
+#define X_BED_SIZE 220
+#define Y_BED_SIZE 220
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
+// #define X_MAX_POS 220
 #define Y_MAX_POS Y_BED_SIZE
 #define Z_MAX_POS 300
 
