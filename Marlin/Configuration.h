@@ -1,5 +1,5 @@
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender-5-SKR-Mini-1.0c"
+#define CUSTOM_MACHINE_NAME "Ender-5-SKR-Mini-1.0d"
 
 /**
  * 
@@ -1004,7 +1004,7 @@
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
 // set to 0 for edge of bed (no clips)
 // #define PROBING_MARGIN 10
-#define PROBING_MARGIN 10
+#define PROBING_MARGIN 30
 
 // X and Y axis travel speed (mm/m) between probes
 #define XY_PROBE_SPEED 10000
