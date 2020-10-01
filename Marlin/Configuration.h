@@ -1,5 +1,5 @@
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender-5-SKR-Mini-1.0d"
+#define CUSTOM_MACHINE_NAME "Ender-5-SKR-Mini-1.0h"
 
 /**
  * 
@@ -142,7 +142,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender-5"
+// #define CUSTOM_MACHINE_NAME "Ender-5"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
@@ -998,13 +998,13 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { -43, -6, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { -43, -6, -1 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
 // set to 0 for edge of bed (no clips)
 // #define PROBING_MARGIN 10
-#define PROBING_MARGIN 30
+#define PROBING_MARGIN 10
 
 // X and Y axis travel speed (mm/m) between probes
 #define XY_PROBE_SPEED 10000
@@ -1140,8 +1140,9 @@
 #define Y_BED_SIZE 220
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_MIN_POS 0
-#define Y_MIN_POS 0
+#define X_MIN_POS -9
+#define Y_MIN_POS -71
+
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
