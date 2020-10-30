@@ -1,11 +1,12 @@
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender-5-SKR-Mini-1.0h"
+#define CUSTOM_MACHINE_NAME "Ender-5-SKR-Mini-2.0a"
 
 /**
  * 
  * ACJ SKR Mini E3 v2.0 - Marlin 2.0.5-bugfix 
  * v0.a - initial build
  * v1.0 - bltouch 
+ * v2.0 - smart runout sensor
  * 
  * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
@@ -44,7 +45,7 @@
  * Advanced settings can be found in Configuration_adv.h
  *
  */
-#define CONFIGURATION_H_VERSION 020006
+#define CONFIGURATION_H_VERSION 020009
 
 //===========================================================================
 //============================= Getting Started =============================
