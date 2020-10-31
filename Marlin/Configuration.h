@@ -1,12 +1,13 @@
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender-5-SKR-Mini-1.0h"
+#define CUSTOM_MACHINE_NAME "Ender-5-SKR-Mini-2.0a"
 
 /**
  * 
  * ACJ SKR Mini E3 v2.0 - Marlin 2.0.5-bugfix 
  * v0.a - initial build
  * v1.0 - bltouch 
- *
+ * v2.0 - smart runout sensor
+ * 
  * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  *
@@ -138,9 +139,6 @@
 #ifndef MOTHERBOARD
   #define MOTHERBOARD BOARD_BTT_SKR_MINI_E3_V2_0
 #endif
-
-// Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender-5SKR"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
