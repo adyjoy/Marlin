@@ -33,7 +33,7 @@
  * Basic settings can be found in Configuration.h
  *
  */
-#define CONFIGURATION_ADV_H_VERSION 020006
+#define CONFIGURATION_ADV_H_VERSION 020008
 
 // @section temperature
 
@@ -1025,7 +1025,7 @@
 //===========================================================================
 
 // @section lcd
-
+#define MANUAL_FEEDRATE { 50*60, 50*60, 4*60, 2*60 } 
 #if EITHER(ULTIPANEL, EXTENSIBLE_UI)
   #define MANUAL_FEEDRATE { 50*60, 50*60, 4*60, 2*60 } // (mm/min) Feedrates for manual moves along X, Y, Z, E from panel
   #define SHORT_MANUAL_Z_MOVE 0.025 // (mm) Smallest manual Z move (< 0.1mm)
