@@ -57,3 +57,10 @@
   #define Z_HARDWARE_SERIAL  MSerial4
   #define E0_HARDWARE_SERIAL MSerial4
 #endif
+
+//
+// SD Support
+//
+#ifndef SDCARD_CONNECTION
+  #define SDCARD_CONNECTION ONBOARD
+#endif

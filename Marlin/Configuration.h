@@ -1,5 +1,5 @@
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender-5-SKR-Mini-2.0NEO"
+#define CUSTOM_MACHINE_NAME "Ender-5-SKR-Mini-2.0XRF"
 
 /**
  * 
@@ -7,6 +7,9 @@
  * v0.a - initial build
  * v1.0 - bltouch 
  * v2.0 - smart runout sensor
+ * X = reverse X-axis due to XL mod
+ * R = runout filter
+ * F = Flash through USB and Octoprint
  * 
  * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
@@ -1097,7 +1100,7 @@
 // @section machine
 
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
-#define INVERT_X_DIR false # changed for raised X axis
+#define INVERT_X_DIR false // changed for raised X axis
 #define INVERT_Y_DIR true
 #define INVERT_Z_DIR true
 
@@ -2444,7 +2447,7 @@
   #define NEOPIXEL_PIN     4       // LED driving pin
   //#define NEOPIXEL2_TYPE NEOPIXEL_TYPE
   //#define NEOPIXEL2_PIN    5
-  #define NEOPIXEL_PIXELS 14       // Number of LEDs in the strip. (Longest strip when NEOPIXEL2_SEPARATE is disabled.)
+  #define NEOPIXEL_PIXELS 6       // Number of LEDs in the strip. (Longest strip when NEOPIXEL2_SEPARATE is disabled.)
   #define NEOPIXEL_IS_SEQUENTIAL   // Sequential display for temperature change - LED by LED. Disable to change all LEDs at once.
   #define NEOPIXEL_BRIGHTNESS 127  // Initial brightness (0-255)
   //#define NEOPIXEL_STARTUP_TEST  // Cycle through colors at startup
