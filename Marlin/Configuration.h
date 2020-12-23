@@ -1,5 +1,5 @@
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender-5-SKR-Mini-2.0XRF"
+#define CUSTOM_MACHINE_NAME "Ender-5-SKR-Mini-2.0XR"
 
 /**
  * 
@@ -9,7 +9,7 @@
  * v2.0 - smart runout sensor
  * X = reverse X-axis due to XL mod
  * R = runout filter
- * F = Flash through USB and Octoprint
+ * F = Flash through USB and Octoprint  // abandoned
  * 
  * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]

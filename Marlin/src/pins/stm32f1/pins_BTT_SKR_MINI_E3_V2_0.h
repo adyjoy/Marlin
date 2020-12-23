@@ -59,8 +59,8 @@
 #endif
 
 //
-// SD Support
+// SD Support - ABANDONED
 //
-#ifndef SDCARD_CONNECTION
-  #define SDCARD_CONNECTION ONBOARD
-#endif
+//#ifndef SDCARD_CONNECTION
+//  #define SDCARD_CONNECTION ONBOARD
+//#endif
